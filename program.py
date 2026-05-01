@@ -1,6 +1,6 @@
 import random
 try:
-    with open('lista.txt', 'r') as file:
+    with open('#file_name#', 'r') as file:
         lista = file.readlines()
 except FileNotFoundError:
     print('nie ma tego pliku')
